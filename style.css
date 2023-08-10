@@ -1,3 +1,4 @@
+/* kustomisasi font, dimensi untuk body */
 body {
 	font-family: Arial, sans-serif;
 	line-height: 1.5;
@@ -5,84 +6,86 @@ body {
 	padding: 0;
 }
 
+/* kustomisasi bg-color, color, padding untuk header */
 header {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
 }
 
+/* kustomisasi untuk h1 */
 h1 {
 	font-size: 36px;
 	margin: 0;
 }
-
+/* kustomisasi untuk meta */
 .meta {
 	font-size: 14px;
 	margin: 0;
 }
-
+/* kustomisasi untuk main */
 main {
 	padding: 20px;
 }
-
+/* kustomisasi untuk h2 */
 h2 {
 	font-size: 24px;
 	margin: 30px 0 10px;
 }
-
+/* kustomisasi untuk unordered list */
 ul {
 	margin: 10px 0;
 	padding-left: 20px;
 }
-
+/* kustomisasi untuk list */
 li {
 	margin: 5px 0;
 }
-
+/* kustomisasi untuk blockquote */
 blockquote {
 	background-color: #f9f9f9;
 	border-left: 10px solid #ccc;
 	margin: 1.5em 10px;
 	padding: 0.5em 10px;
 }
-
+/* kustomisasi untuk blockquote-p */
 blockquote p {
 	margin: 0;
 }
-
+/* kustomisasi untuk blockquote-footer */
 blockquote footer {
 	margin-top: 10px;
 }
-
+/* kustomisasi untuk table */
 table {
 	border-collapse: collapse;
 	margin: 10px 0;
 	width: 100%;
 }
-
+/* kustomisasi untuk table th */
 table th {
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
 }
-
+/* kustomisasi untuk table td */
 table td {
 	border: 1px solid #ccc;
 	padding: 10px;
 }
-
+/* kustomisasi untuk gallery */
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 20px 0;
 }
-
+/* kustomisasi untuk gallery a */
 .gallery a {
 	flex-basis: calc(33.33% - 10px);
 	margin-bottom: 10px;
 }
-
+/* kustomisasi untuk gallery img */
 .gallery img {
 	display: block;
 	height: 25%;
